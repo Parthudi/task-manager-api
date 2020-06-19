@@ -17,7 +17,6 @@ app.use(express.json()) //automatically parse an incoming json data into object
 app.use(useRouter)
 app.use(taskRouter)
 
-
 app.listen(port, () => {
     console.log('server is running on: ' + port)
 })
